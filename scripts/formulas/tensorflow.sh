@@ -63,7 +63,7 @@ function copy() {
 
   # Make a copy of the lib in the lib directory.
   mkdir -p ~/lib/
-  cp ${BUILD_DIR}/tensorflow/libtensorflow_cc.so
+  cp ${BUILD_DIR}/tensorflow/libtensorflow_cc.so ~/lib/
 }
 
 # executed inside the lib src dir
