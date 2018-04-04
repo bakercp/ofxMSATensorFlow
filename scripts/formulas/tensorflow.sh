@@ -22,8 +22,8 @@ function download() {
       curl -OL https://github.com/memo/ofxMSATensorFlow/releases/download/tf1.0/lib_TF1.0_osx_OPT_CPU_2017_03_01.zip
       unzip lib_TF1.0_osx_OPT_CPU_2017_03_01.zip
     elif [ "$TYPE" == "linux64" ] ; then
-      curl -OL https://github.com/memo/ofxMSATensorFlow/releases/download/tf1.0/lib_TF1.0_linux64_OPT_CUDA8.0_CUDNN5.1_2017_02_22.tar.gz
-      tar xvf lib_TF1.0_linux64_OPT_CUDA8.0_CUDNN5.1_2017_02_22.tar.gz
+      curl -OL https://github.com/memo/ofxMSATensorFlow/releases/download/tf1.0/lib_TF1.0_linux64_NOPT_CPU_2017_02_22.tar.gz
+      tar xvf lib_TF1.0_linux64_NOPT_CPU_2017_02_22.tar.gz
     fi
     cd -
 }
