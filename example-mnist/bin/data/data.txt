@@ -1,0 +1,2 @@
+msa/examples/example-mnist-data/data/model-deep/ model-deep
+msa/examples/example-mnist-data/data/model-simple/ model-simple
